@@ -1,9 +1,9 @@
 package conhash
 
-// #include "../cbaseclass/cconhash/configure.h"
-// #include "../cbaseclass/cconhash/conhash_inter.h"
-// #include "../cbaseclass/cconhash/conhash.h"
-// #include "../cbaseclass/cconhash/util_rbtree.h"
+// #include "../cconhash/configure.h"
+// #include "../cconhash/conhash_inter.h"
+// #include "../cconhash/conhash.h"
+// #include "../cconhash/util_rbtree.h"
 import "C"
 
 type conHashHandle C.struct_conhash_s

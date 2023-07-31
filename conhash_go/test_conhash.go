@@ -2,8 +2,8 @@ package conhash
 
 // #cgo CFLAGS: -I${SRCDIR}/
 // #cgo LDFLAGS: -L${SRCDIR}/../libs -lconhash
-// #include "../cbaseclass/cconhash/configure.h"
-// #include "../cbaseclass/cconhash/conhash.h"
+// #include "../cconhash/configure.h"
+// #include "../cconhash/conhash.h"
 import "C"
 import (
 	"fmt"
